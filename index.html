@@ -1,13 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
     <link rel="icon" href="assets/tablogo.svg" type="image/svg+xml">
+
+    <link rel="stylesheet" href="assets/style.css">
+
     <title>Ton's Portfolio</title>
 </head>
 <body>
-    
+
+<header id="main-nav">
+    <nav class="nav-inner">
+        <a class="nav-brand" href="#">
+            <span class="nav-brand-name">Carl Anthony L. Peña</span>
+        </a>
+
+        <div class="nav-links">
+            <a href="#" class="nav-link" data-page="about">About</a>
+            <a href="#" class="nav-link" data-page="portfolio">Portfolio</a>
+            <a href="#" class="nav-link" data-page="contact">Contact</a>
+        </div>
+
+        <div class="nav-actions">
+            <button class="icon-btn" aria-label="Coffee">
+                <span class="material-symbols-outlined text-primary">local_cafe</span>
+            </button>
+            <button class="icon-btn" id="theme-toggle" aria-label="Toggle light and dark mode">
+                <span class="material-symbols-outlined">light_mode</span>
+            </button>
+            <button class="icon-btn nav-toggle" id="nav-toggle" aria-label="Open menu">
+                <span class="material-symbols-outlined">menu</span>
+            </button>
+        </div>
+    </nav>
+</header>
+
+<main id="maincontent"></main>
+
+<footer>
+    <div class="footer-inner">
+        <div class="footer-brand">
+            <span class="name">Carl Anthony L. Peña</span>
+            <span class="copy">© 2026. All rights reserved.</span>
+        </div>
+        <div class="footer-links">
+            <a href="mailto:carlanthonypenaa@gmail.com">Email</a>
+            <a href="https://github.com/CrimsonDonut" target="_blank" rel="noopener">GitHub</a>
+        </div>
+        <div class="footer-made">
+            Made with <span class="material-symbols-outlined fill-1">favorite</span> and coffee
+        </div>
+    </div>
+</footer>
+
+<script src="assets/script.js"></script>
+
 </body>
 </html>
