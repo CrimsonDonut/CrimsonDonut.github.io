@@ -251,7 +251,7 @@ window.addEventListener("hashchange", () => loadPage());
 // Load the initial page when the site finishes loading
 document.addEventListener("DOMContentLoaded", () => loadPage());
 
-
+const navToggle = document.getElementById("nav-toggle");
 const navToggleIcon = navToggle.querySelector(".material-symbols-outlined");
 const navLinksEl = document.querySelector(".nav-links");
 
