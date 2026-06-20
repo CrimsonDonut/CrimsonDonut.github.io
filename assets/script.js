@@ -16,7 +16,7 @@ const pages = {
           </span>
           <h1 class="font-display hero-heading">
             Hi, I'm <em>Carl Anthony Peña</em> —<br>
-            a software engineer who brews ideas into reality.
+            an aspiring Software Engineer who brews ideas into reality.
           </h1>
           <p class="hero-sub">
             Hi! I'm an aspiring Software Engineer with a a passion for development, currently pursuing a Bachelor of Science in Information Technology at the Polytechnic University of the Philippines.
