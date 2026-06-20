@@ -1,9 +1,3 @@
-// =====================================================================
-// PAGE CONTENT
-// Replace the placeholder text/images below with your own. Everything
-// here reuses the CSS classes already defined in style.css, so the
-// coffee-and-wood look stays consistent automatically.
-// =====================================================================
 const pages = {
 
   about: `
@@ -219,11 +213,6 @@ contact: `
 
 const DEFAULT_PAGE = "about";
 
-// =====================================================================
-// PAGE ROUTING
-// =====================================================================
-
-// Displays the selected page, updates the URL hash, and sets the active nav link
 function loadPage(pageName) {
   const name = pageName || window.location.hash.replace("#", "") || DEFAULT_PAGE;
   const content = pages[name];
@@ -262,10 +251,7 @@ window.addEventListener("hashchange", () => loadPage());
 // Load the initial page when the site finishes loading
 document.addEventListener("DOMContentLoaded", () => loadPage());
 
-// =====================================================================
-// MOBILE MENU TOGGLE
-// =====================================================================
-const navToggle = document.getElementById("nav-toggle");
+
 const navToggleIcon = navToggle.querySelector(".material-symbols-outlined");
 const navLinksEl = document.querySelector(".nav-links");
 
@@ -274,9 +260,7 @@ navToggle.addEventListener("click", () => {
   navToggleIcon.textContent = isOpen ? "close" : "menu";
 });
 
-// =====================================================================
-// LIGHT / DARK MODE TOGGLE
-// =====================================================================
+// Light Dark Theme Toggle
 const root = document.documentElement;
 const themeToggle = document.getElementById("theme-toggle");
 const themeIcon = themeToggle.querySelector(".material-symbols-outlined");
