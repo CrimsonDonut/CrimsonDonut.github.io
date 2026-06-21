@@ -156,10 +156,10 @@ portfolio: `
               <img src="assets/images/PinoyTix.png" alt="Project Four">
             </div>
             <div class="project-actions">
-              <a href="https://yourusername.github.io/project-four" target="_blank" rel="noopener" class="btn-project primary">
+              <a href="https://pinoytix.ifree.page/frontend/pages/index.php" target="_blank" rel="noopener" class="btn-project primary">
                 <span class="material-symbols-outlined">open_in_new</span> View Project
               </a>
-              <a href="https://github.com/yourusername/project-four" target="_blank" rel="noopener" class="btn-project outline">
+              <a href="https://github.com/markjtria/IPT-FINALS-PINOYTIX" target="_blank" rel="noopener" class="btn-project outline">
                 <span class="material-symbols-outlined">code</span> Repository
               </a>
             </div>
