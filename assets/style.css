@@ -904,6 +904,7 @@ footer {
 
 /* ─── Light mode ────────────────────────────────────────── */
 html[data-theme="light"] {
+
     --color-primary:               #5f3e3c;
     --color-secondary:             #b45309;
     --color-surface:               #fff8f7;
@@ -922,4 +923,14 @@ html[data-theme="light"] {
 }
 html[data-theme="light"] body {
     background-color: var(--color-surface);
+}
+
+#theme-toggle .material-symbols-outlined {
+    color: var(--color-secondary); 
+    transition: color 0.3s ease;
+}
+
+/* Light Mode: Black (using your dark surface text color for harmony) */
+html[data-theme="light"] #theme-toggle .material-symbols-outlined {
+    color: var(--color-on-surface); 
 }
