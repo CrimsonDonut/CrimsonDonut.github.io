@@ -99,7 +99,7 @@ portfolio: `
               <img src="assets/images/TonBits.png" alt="Project One">
             </div>
             <div class="project-actions">
-              <a href="https://CrimsonDonut.github.io/TonBits" target="_blank" rel="noopener" class="btn-project primary">
+              <a href="https://tonbits.great-site.net/" target="_blank" rel="noopener" class="btn-project primary">
                 <span class="material-symbols-outlined">open_in_new</span> View Project
               </a>
               <a href="https://github.com/CrimsonDonut/TonBits" target="_blank" rel="noopener" class="btn-project outline">
