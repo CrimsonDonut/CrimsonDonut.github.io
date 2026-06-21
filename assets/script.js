@@ -137,7 +137,7 @@ portfolio: `
               <img src="assets/images/AthleticDiv.png" alt="Project Three">
             </div>
             <div class="project-actions">
-              <a href="https://CrimsonDonut.github.io/Athletic-Divinity" target="_blank" rel="noopener" class="btn-project primary">
+              <a href="https://athletic-divinity.onrender.com/" target="_blank" rel="noopener" class="btn-project primary">
                 <span class="material-symbols-outlined">open_in_new</span> View Project
               </a>
               <a href="https://github.com/CrimsonDonut/Athletic-Divinity" target="_blank" rel="noopener" class="btn-project outline">
