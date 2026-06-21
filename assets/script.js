@@ -118,7 +118,7 @@ portfolio: `
               <img src="assets/images/nightlight.jpg" alt="Project Two">
             </div>
             <div class="project-actions">
-              <a href="https://tonbits.great-site.net/" target="_blank" rel="noopener" class="btn-project primary">
+              <a href="https://crimsondonut.github.io/NightLight/" target="_blank" rel="noopener" class="btn-project primary">
                 <span class="material-symbols-outlined">open_in_new</span> View Project
               </a>
               <a href="https://github.com/CrimsonDonut/NightLight" target="_blank" rel="noopener" class="btn-project outline">
