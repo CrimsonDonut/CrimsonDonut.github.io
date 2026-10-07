@@ -13,26 +13,33 @@
     <link rel="stylesheet" href="assets/style.css">
 
     <title>Ton's Portfolio</title>
+    <style>
+        * {
+            transition: ease-in 0.3s;
+        }
+    </style>
 </head>
 <body>
 
 <header id="main-nav">
-    <nav class="nav-inner">
+    <nav class="nav-inner px-3 px-md-5">
         <a class="nav-brand" href="#">
             <span class="nav-brand-name">Carl Anthony L. Peña</span>
         </a>
 
-        <div class="nav-links">
+        <div class="nav-links d-none d-md-flex flex-column flex-md-row">
             <a href="#" class="nav-link" data-page="about">About</a>
             <a href="#" class="nav-link" data-page="portfolio">Portfolio</a>
+            <a href="#" class="nav-link" data-page="activities">Activities</a>
             <a href="#" class="nav-link" data-page="contact">Contact</a>
+            
         </div>
 
         <div class="nav-actions">
             <button class="icon-btn" id="theme-toggle" aria-label="Toggle light and dark mode">
                 <span class="material-symbols-outlined">light_mode</span>
             </button>
-            <button class="icon-btn nav-toggle" id="nav-toggle" aria-label="Open menu">
+            <button class="icon-btn nav-toggle d-md-none" id="nav-toggle" aria-label="Open menu">
                 <span class="material-symbols-outlined">menu</span>
             </button>
         </div>
@@ -42,7 +49,7 @@
 <main id="maincontent"></main>
 
 <footer>
-    <div class="footer-inner">
+    <div class="footer-inner flex-column flex-md-row justify-content-md-between px-3 px-md-5 py-5">
         <div class="footer-brand">
             <span class="name">Carl Anthony L. Peña</span>
             <span class="copy">© 2026. All rights reserved.</span>

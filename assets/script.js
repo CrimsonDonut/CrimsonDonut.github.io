@@ -1,21 +1,21 @@
 const pages = {
 
   about: `
-    <section id="hero">
-      <div class="hero-inner">
-        <div class="hero-content">
+    <section id="hero" class="px-3 px-md-5">
+      <div class="hero-inner row g-5">
+        <div class="hero-content col-12 col-lg-6 order-2 order-lg-1">
           <span class="hero-badge">
             <span class="material-symbols-outlined">local_cafe</span>
             Available for new projects
           </span>
           <h1 class="font-display hero-heading">
-            Hi, I'm <em>Carl Anthony Peña</em> —<br>
+            Hi, I'm <em>Carl Anthony Peña</em><br>
             an aspiring Software Engineer who brews ideas into reality.
           </h1>
           <p class="hero-sub">
             Hi! I'm an aspiring Software Engineer with a a passion for development, currently pursuing a Bachelor of Science in Information Technology at the Polytechnic University of the Philippines.
           </p>
-          <div class="hero-actions">
+          <div class="hero-actions flex-column flex-sm-row">
             <button class="btn-primary-c" onclick="loadPage('portfolio')">
               <span class="material-symbols-outlined">work</span>
               View My Work
@@ -25,7 +25,7 @@ const pages = {
             </button>
           </div>
         </div>
-        <div class="hero-photo-wrap">
+        <div class="hero-photo-wrap col-12 col-lg-6 order-1 order-lg-2">
           <div class="hero-photo-frame">
             <div class="deco-bg-1"></div>
             <div class="deco-bg-2"></div>
@@ -42,14 +42,14 @@ const pages = {
       </div>
     </section>
 
-    <section id="philosophy">
-      <div class="philosophy-inner">
-        <div class="philosophy-img-wrap">
+    <section id="philosophy" class="px-3 px-md-5">
+      <div class="philosophy-inner row g-5">
+        <div class="philosophy-img-wrap col-12 col-md-6">
           <div class="philosophy-img-frame">
             <img src="assets/images/workspace.jpg" alt="Your workspace">
           </div>
         </div>
-        <div class="philosophy-content">
+        <div class="philosophy-content col-12 col-md-6">
           <h2>How I Work</h2>
           <p class="philosophy-quote">
             I prepare ahead of time to produce quality work.
@@ -81,17 +81,100 @@ const pages = {
       </div>
     </section>
   `,
+activities: `
+    <section id="works" class="px-3 px-md-5">
+      <div class="section-header flex-column flex-md-row align-items-md-end justify-content-md-between">
+        <h1 class="fs-2 fw-semibold text-on-surface">Selected Works</h1>
+        <p class="text-muted-surface">My activities and projects for my requirements in Web Development.</p>
+      </div>
 
+      <div class="projects-grid row g-4">
+        <div class="col-12 col-md-6">
+          <div class="card-project card-lg h-100">
+          <div class="card-body-c p-4 p-md-5">
+            <span class="project-tag">Activity 1</span>
+            <h3 class="font-title">Bento Style Page</h3>
+            <p class="text-muted-surface">Bento style layout implementation.</p>
+            <div class="card-img-wrap">
+              <img src="assets/images/Bentoplaceholder.png" alt="Project One">
+            </div>
+            <div class="project-actions">
+              <a href="https://crimsondonut.github.io/pena_webdevelopment/AO1/" target="_blank" rel="noopener" class="btn-project primary">
+                <span class="material-symbols-outlined">open_in_new</span> View Project
+              </a>
+            </div>
+          </div>
+        </div>
+        </div>
+
+        <div class="col-12 col-md-6">
+          <div class="card-project card-tall h-100">
+            <div class="card-body-c p-4 p-md-5">
+              <span class="project-tag">Activity 2</span>
+              <h3 class="font-title">Upcoming Activity</h3>
+              <p class="text-muted-surface">Details will be added soon.</p>
+              <div class="card-img-wrap">
+                <img src="assets/images/placeholderimg.jpeg" alt="Placeholder for Activity 2">
+              </div>
+              <div class="project-actions">
+                <a href="" class="btn-project primary">
+                  <span class="material-symbols-outlined">open_in_new</span> View Project
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6">
+          <div class="card-project card-sm-1 h-100">
+            <div class="card-body-c p-4 p-md-5">
+              <span class="project-tag">Activity 3</span>
+              <h3 class="font-title">Upcoming Activity</h3>
+              <p class="text-muted-surface">Details will be added soon.</p>
+              <div class="card-img-wrap">
+                <img src="assets/images/placeholderimg.jpeg" alt="Placeholder for Activity 3">
+              </div>
+              <div class="project-actions">
+                <a href="" class="btn-project primary">
+                  <span class="material-symbols-outlined">open_in_new</span> View Project
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6">
+          <div class="card-project card-sm-2 h-100">
+            <div class="card-body-c p-4 p-md-5">
+              <span class="project-tag">Activity 4</span>
+              <h3 class="font-title">Upcoming Activity</h3>
+              <p class="text-muted-surface">Details will be added soon.</p>
+              <div class="card-img-wrap">
+                <img src="assets/images/placeholderimg.jpeg" alt="Placeholder for Activity 4">
+              </div>
+              <div class="project-actions">
+                <a href="" class="btn-project primary">
+                  <span class="material-symbols-outlined">open_in_new</span> View Project
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  `,
 portfolio: `
-    <section id="works">
-      <div class="section-header">
-        <h1 class="font-headline text-on-surface">Selected Works</h1>
+    <section id="works" class="px-3 px-md-5">
+      <div class="section-header flex-column flex-md-row align-items-md-end justify-content-md-between">
+        <h1 class="fs-2 fw-semibold text-on-surface">Selected Works</h1>
         <p class="text-muted-surface">My works over the years.</p>
       </div>
 
-      <div class="projects-grid">
-        <div class="card-project card-lg">
-          <div class="card-body-c">
+      <div class="projects-grid row g-4">
+        <div class="col-12 col-md-8">
+          <div class="card-project card-lg h-100">
+          <div class="card-body-c p-4 p-md-5">
             <span class="project-tag">Web</span>
             <h3 class="font-title">TonBITS</h3>
             <p class="text-muted-surface">An e-commerce site focused on selling GPU's at a competitive price. Made primarily with PHP embedded in HTML, and CSS.</p>
@@ -108,9 +191,11 @@ portfolio: `
             </div>
           </div>
         </div>
+        </div>
 
-        <div class="card-project card-tall">
-          <div class="card-body-c">
+        <div class="col-12 col-md-4">
+          <div class="card-project card-tall h-100">
+          <div class="card-body-c p-4 p-md-5">
             <span class="project-tag">Game</span>
             <h3 class="font-title">Night Light</h3>
             <p class="text-muted-surface">A simple sidescroller that has a cyberpunk-esque theme that gets progressively more challenging as your score gets higher. Made with Python using Pygame</p>
@@ -127,9 +212,11 @@ portfolio: `
             </div>
           </div>
         </div>
+        </div>
 
-        <div class="card-project card-sm-1">
-          <div class="card-body-c">
+        <div class="col-12 col-md-6">
+          <div class="card-project card-sm-1 h-100">
+          <div class="card-body-c p-4 p-md-5">
             <span class="project-tag">Web</span>
             <h3 class="font-title">Athletic Divinity</h3>
             <p class="text-muted-surface">An e-commerce site focused on selling athletic wear and accessories. Made primarily with HTML, JavaScript, and CSS.</p>
@@ -146,9 +233,11 @@ portfolio: `
             </div>
           </div>
         </div>
+        </div>
 
-        <div class="card-project card-sm-2">
-          <div class="card-body-c">
+        <div class="col-12 col-md-6">
+          <div class="card-project card-sm-2 h-100">
+          <div class="card-body-c p-4 p-md-5">
             <span class="project-tag">Web</span>
             <h3 class="font-title">PinoyTix</h3>
             <p class="text-muted-surface">An online ticketing platform for Philippine cinemas. Handled the Backend development. Features API calls from TMDB.</p>
@@ -165,6 +254,7 @@ portfolio: `
             </div>
           </div>
         </div>
+        </div>
       </div>
 
       <div class="terminal-window">
@@ -178,33 +268,39 @@ portfolio: `
 contact: `
     <section id="contact-simple">
       <div class="contact-header">
-        <h1 class="font-headline text-on-surface">Let's Connect</h1>
+        <h1 class="fs-2 fw-semibold text-on-surface">Let's Connect</h1>
         <p class="text-muted-surface">Have a project in mind or just want to chat? Drop a line below.</p>
       </div>
       
-      <div class="contact-info-grid">
-        <div class="contact-item">
+      <div class="contact-info-grid row g-4">
+        <div class="col-12 col-md-4">
+        <div class="contact-item h-100">
           <span class="material-symbols-outlined">mail</span>
           <div class="contact-details">
             <h3>Email</h3>
             <a href="mailto:carlanthony.pena@example.com">carlanthonypenaa@gmail.com</a>
           </div>
         </div>
+        </div>
 
-        <div class="contact-item">
+        <div class="col-12 col-md-4">
+        <div class="contact-item h-100">
           <span class="material-symbols-outlined">call</span>
           <div class="contact-details">
             <h3>Phone</h3>
             <a href="tel:+639123456789">+63 955 550 5540</a>
           </div>
         </div>
+        </div>
 
-        <div class="contact-item">
+        <div class="col-12 col-md-4">
+        <div class="contact-item h-100">
           <span class="material-symbols-outlined">location_on</span>
           <div class="contact-details">
             <h3>Location</h3>
             <p>Batangas, Philippines</p>
           </div>
+        </div>
         </div>
       </div>
     </section>
