@@ -96,7 +96,7 @@ activities: `
             <h3 class="font-title">Bento Style Page</h3>
             <p class="text-muted-surface">Bento style layout implementation.</p>
             <div class="card-img-wrap">
-              <img src="assets/images/Bentoplaceholder.png" alt="Project One">
+              <img src="assets/images/BentoPlaceholder.png" alt="Project One">
             </div>
             <div class="project-actions">
               <a href="https://crimsondonut.github.io/pena_webdevelopment/AO1/" target="_blank" rel="noopener" class="btn-project primary">
