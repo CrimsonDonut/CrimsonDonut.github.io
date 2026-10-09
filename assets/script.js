@@ -84,10 +84,13 @@ const pages = {
 activities: `
     <section id="works" class="px-3 px-md-5">
       <div class="section-header flex-column flex-md-row align-items-md-end justify-content-md-between">
+              <a href="https://github.com/CrimsonDonut/pena_webdevelopment" target="_blank" rel="noopener" class="btn btn-project primary" role="button">
+          View Repository
+        </a>
         <h1 class="fs-2 fw-semibold text-on-surface">Selected Works</h1>
         <p class="text-muted-surface">My activities and projects for my requirements in Web Development.</p>
       </div>
-
+      
       <div class="projects-grid row g-4">
         <div class="col-12 col-md-6">
           <div class="card-project card-lg h-100">
