@@ -114,13 +114,13 @@ activities: `
           <div class="card-project card-tall h-100">
             <div class="card-body-c p-4 p-md-5">
               <span class="project-tag">Activity 2</span>
-              <h3 class="font-title">Upcoming Activity</h3>
-              <p class="text-muted-surface">Details will be added soon.</p>
+              <h3 class="font-title">JSON Activity</h3>
+              <p class="text-muted-surface">My Mlbb hero mains featuring json data.</p>
               <div class="card-img-wrap">
-                <img src="assets/images/placeholderimg.jpeg" alt="Placeholder for Activity 2">
+                <img src="assets/images/A03.png" alt="Placeholder for Activity 2">
               </div>
               <div class="project-actions">
-                <a href="" class="btn-project primary">
+                <a href="https://crimsondonut.github.io/pena_webdevelopment/AO2/" class="btn-project primary">
                   <span class="material-symbols-outlined">open_in_new</span> View Project
                 </a>
               </div>
