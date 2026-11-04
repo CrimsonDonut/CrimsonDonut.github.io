@@ -117,7 +117,7 @@ activities: `
               <h3 class="font-title">JSON Activity</h3>
               <p class="text-muted-surface">My Mlbb hero mains featuring json data.</p>
               <div class="card-img-wrap">
-                <img src="assets/images/A03.png" alt="Placeholder for Activity 2">
+                <img src="assets/images/AO2.png" alt="Placeholder for Activity 2">
               </div>
               <div class="project-actions">
                 <a href="https://crimsondonut.github.io/pena_webdevelopment/AO2/" class="btn-project primary">
@@ -135,7 +135,7 @@ activities: `
               <h3 class="font-title">MLBB - API</h3>
               <p class="text-muted-surface">Allows you to view the current pick, ban, and win rates for all of the heroes that can be filtered for each role and rank category.</p>
               <div class="card-img-wrap">
-                <img src="assets/images/placeholderimg.jpeg" alt="Placeholder for Activity 3">
+                <img src="assets/images/AO3.png" alt="Placeholder for Activity 3">
               </div>
               <div class="project-actions">
                 <a href="https://crimsondonut.github.io/pena_webdevelopment/AO3/" class="btn-project primary">
